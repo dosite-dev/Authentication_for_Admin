@@ -1,0 +1,26 @@
+{
+  "name": "authentication_for_admin",
+  "version": "1.0.0",
+  "description": "This repo contain SignUp and SignIn in backend by using NodeJs,Express,MongoDb and different packages that will be needed",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auth",
+    "express"
+  ],
+  "author": "Dosite",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.4",
+    "nodemon": "^3.0.2"
+  }
+}
